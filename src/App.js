@@ -1,9 +1,12 @@
+import COLORS from "./components/color";
 
 function App() {
   return (
-    <div className="App">
-      <h1 class="text-6xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      <div className="App" style={{ paddingBottom: "30px" }}>
+        <COLORS />
+      </div>
+    </>
   );
 }
 
